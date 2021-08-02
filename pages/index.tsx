@@ -25,6 +25,5 @@ export default function Home() {
       <input type="password" value={password} onChange={e => setPassword(e.target.value)} />
       <button type="submit">Entrar</button>
     </form>
-
   )
 }
